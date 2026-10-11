@@ -43,7 +43,8 @@ Copy `main.js`, `manifest.json` and `styles.css` into `<vault>/.obsidian/plugins
 - A preview runs the page's own JavaScript. Only preview HTML you trust.
 - The sandbox defaults to `allow-scripts allow-forms allow-modals allow-popups allow-downloads` **without** `allow-same-origin`, so a preview cannot reach into Obsidian or your vault.
 - Turning on `allow-same-origin` relaxes that: the preview then shares Obsidian's origin. Use it for your own files only.
-- No network requests, no telemetry. Nothing leaves your machine.
+- The plugin itself makes no network requests, has no telemetry, and reads only files inside the vault.
+- A previewed page runs exactly as written, so it may reference remote resources (images, fonts, scripts). That is the page's own behaviour, not the plugin's. Preview HTML you trust.
 
 ## Implementation notes
 
