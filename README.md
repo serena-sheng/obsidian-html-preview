@@ -1,4 +1,4 @@
-# HTML Preview
+# Vault HTML Preview
 
 Preview local `.html` files inside Obsidian — styles and scripts included — without leaving the app or opening a browser.
 

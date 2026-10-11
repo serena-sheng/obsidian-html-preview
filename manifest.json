@@ -1,9 +1,9 @@
 {
-  "id": "html-preview",
-  "name": "HTML Preview",
-  "version": "1.0.0",
+  "id": "vault-html-preview",
+  "name": "Vault HTML Preview",
+  "version": "1.0.1",
   "minAppVersion": "1.4.0",
-  "description": "Preview local HTML files inside Obsidian, styles and scripts included.",
+  "description": "Preview local HTML files from your vault in a dedicated view, styles and scripts included.",
   "author": "Serena Sheng",
   "authorUrl": "https://github.com/serena-sheng",
   "isDesktopOnly": false
