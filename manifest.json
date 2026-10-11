@@ -1,0 +1,10 @@
+{
+  "id": "html-preview",
+  "name": "HTML Preview",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Preview local HTML files inside Obsidian, styles and scripts included.",
+  "author": "Serena Sheng",
+  "authorUrl": "https://github.com/serena-sheng",
+  "isDesktopOnly": false
+}
